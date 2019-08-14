@@ -1,0 +1,22 @@
+<% provide(:title, "Edit appointent") %>
+<h1>Confirm the patient's appointment</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+  	<p>
+  		<strong>Date:</strong>
+  		<%= @appointment.date %>
+		</p>
+    <%= form_for(@appointment) do |f| %> 
+
+      <div class="field">
+        <%= f.label "confirm" %> <br />
+        <%= f.check_box :completed %> <br />
+      </div>
+
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
+    <% end %>
+
+
+  </div>
+</div>

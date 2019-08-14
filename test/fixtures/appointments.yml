@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+user1:
+  date: 2019-05-20 15:29:50
+  doctor: doc1
+  patient: pat1
+  completed: false

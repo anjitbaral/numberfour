@@ -45,7 +45,7 @@ gem 'dotenv', '~> 2.0'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'geocoder', '~> 1.3', '>= 1.3.7'
+gem 'geocoder', '~> 1.6'
 gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
 
 
